@@ -14,9 +14,9 @@ return new class extends Migration
         Schema::create('civils', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->timestamps();
-            $table->string('nome');
-            $table->string('endereco');
-            $table->string('telefone');
+            $table->string('nomeCivil');
+            $table->string('enderecoCivil');
+            $table->string('telefoneCivil');
         });
     }
 
