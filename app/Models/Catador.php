@@ -8,5 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Catador extends Model
 {
     use HasFactory;
-    protected $fillable = ['nomeCatador', 'local', 'telefoneCatador'];
+    protected $fillable = ['nomeCatador', 'local', 'telefoneCatador', 'disponibilidade_id'];
+    public function disponibilidade() {
+        return $this->belongsTo('App/Models/Disponibilidade');
+    }
 }
