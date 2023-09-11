@@ -12,8 +12,11 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('agendamentos', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->timestamps();
+            $table->time('horário');
+            $table->date('dia');
+            $table->int('avaliacao');
         });
     }
 
