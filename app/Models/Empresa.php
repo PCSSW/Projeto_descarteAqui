@@ -14,4 +14,5 @@ class Empresa extends Model
         'telefoneEmpresa', 
         'enderecoEmpresa', 
     ];
+
 }

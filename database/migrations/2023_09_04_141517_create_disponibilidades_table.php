@@ -12,8 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('disponibilidades', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->timestamps();
+            $table->time('horarioDisponivel');
+            $table->date('diaDisponivel');
+            $table->unsignedBigInteger('catador_id');
+            $table->foreign('catador_id')->references('id')->on('catadors');
         });
     }
 

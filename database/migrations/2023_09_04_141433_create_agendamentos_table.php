@@ -14,9 +14,16 @@ return new class extends Migration
         Schema::create('agendamentos', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->timestamps();
-            $table->time('horário');
+            $table->time('horario');
             $table->date('dia');
             $table->int('avaliacao');
+            $table->unsignedBigInteger('civil_id');
+            $table->foreign('civil_id')->references('id')->on('civils');
+            $table->unsignedBigInteger('catador_id');
+            $table->foreign('catador_id')->references('id')->on('catadors');
+            $table->unsignedBigInteger('material_id');
+            $table->foreign('material_id')->references('id')->on('materials');
+
         });
     }
 
