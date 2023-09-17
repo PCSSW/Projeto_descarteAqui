@@ -16,5 +16,14 @@ class Agendamento extends Model
         'catador_id',
         'material_id'
     ];
+    public function civil(){
+        return $this->belongsTo('App/Models/Civil');
+    }
+    public function catador(){
+        return $this->belongsTo('App/Models/Catador');
+    }
+    public function material(){
+        return $this->belongsTo('App/Models/Material');
+    }
 
 }

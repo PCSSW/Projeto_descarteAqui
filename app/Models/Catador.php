@@ -10,9 +10,18 @@ class Catador extends Model
     use HasFactory;
     protected $fillable = [
         'nomeCatador', 
-        'local', 
+        'localAtuacao', 
         'telefoneCatador', 
         'disponibilidade_id'
     ];
+    public function agendamento(){
+        return $this->hasMany('App/Models/Agendamento', 'catador_id');
+    }
+    public function material(){
+        return $this->hasMany('App/Models/Material', 'catador_id');
+    }
+    public function disponibilidade(){
+        return $this->belongsTo('App/Models/Disponibilidade');
+    }
  
 }

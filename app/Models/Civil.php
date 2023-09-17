@@ -13,5 +13,11 @@ class Civil extends Model
         'enderecoCivil', 
         'telefoneCivil'
     ];
+    public function agendamento(){
+        return $this->hasMany('App/Models/Agendamento', 'civil_id');
+    }
+    public function material(){
+        return $this->hasMany('App/Models/Material', 'civil_id');
+    }
 
 }

@@ -13,5 +13,8 @@ class Disponibilidade extends Model
         'diaDisponivel',
         'catador_id'
     ];
+    public function catador(){
+        return $this->belongsTo('App/Models/Catador');
+    }
 
 }
