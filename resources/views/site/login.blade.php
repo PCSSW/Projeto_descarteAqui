@@ -2,11 +2,11 @@
 @section('title', 'Descarte aqui')
 @section('body')
 <div class="container mt-5 pt-5">
-    <div class="row">
-        <div class="col-sm-8">
-            
+    <div class="row mt-5">
+        <div class="col-sm-8 mt-5">
+            <img src="{{asset('storage/imagens/login.png')}}" alt="">
         </div>
-        <div class="col-sm-4 ">
+        <div class="col-sm-4 mt-5">
             <div class="">
                 <form class="form-signin">
                   <h1 class="text-center h1 mb-3" style="font-size: xx-large; font-weight: bold;">LOGIN</h1>

@@ -4,13 +4,13 @@
 <div class="container mt-5 pt-5">
     
     <div class="row" style="display: flex; justify-content: center">
-        <div class="col">
-            IMG
+        <div class="col ms-5">
+            <img src="{{asset('storage/imagens/nopicture.png')}}" alt="">
         </div>
-        <div class="col" style="font-size: x-large; font-weight: bold;">
+        <div class="col mt-5" style="font-size: x-large; font-weight: bold;">
             Alice Rodrigues
         </div>
-        <div class="col">
+        <div class="col mt-5">
             <button type="button" class="btn btn-primary">Editar</button>
         </div>
     </div>

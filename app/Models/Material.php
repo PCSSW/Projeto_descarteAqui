@@ -14,5 +14,10 @@ class Material extends Model
         'catador_id', 
         'empresa_id' 
     ];
-    
+    public function agendamento(){
+        return $this->hasMany('App/Models/Material_Agendamento', 'agendamento_id');
+    }
+    public function catador(){
+        return $this->hasMany('App/Models/Catador_Material', 'catador_id');
+    }
 }

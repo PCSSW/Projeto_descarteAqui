@@ -17,8 +17,6 @@ return new class extends Migration
             $table->string('nomeCatador');
             $table->string('localAtuacao');
             $table->string('telefoneCatador');
-            $table->unsignedBigInteger('disponibilidade_id');
-            $table->foreign('disponibilidade_id')->references('id')->on('disponibilidades');
         });
     }
 

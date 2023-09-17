@@ -15,12 +15,7 @@ return new class extends Migration
             $table->bigIncrements('id');
             $table->timestamps();
             $table->string('nomeMaterial');
-            $table->unsignedBigInteger('civil_id');
-            $table->foreign('civil_id')->references('id')->on('civils');
-            $table->unsignedBigInteger('catador_id');
-            $table->foreign('catador_id')->references('id')->on('catadors');
-            $table->unsignedBigInteger('empresa_id');
-            $table->foreign('empresa_id')->references('id')->on('empresas');
+            
         });
     }
 

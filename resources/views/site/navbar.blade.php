@@ -4,7 +4,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
     <div>
-        <!--IMAGEM LOGO-->
+        <img src="{{asset('storage/imagens/logo.png')}}" alt="">
         <a class="navbar-brand" href="#" style="font-size: xx-large; font-weight: bold;">Descarte Aqui</a>
     </div>
     <div>

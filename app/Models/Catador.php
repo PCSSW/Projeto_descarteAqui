@@ -14,5 +14,14 @@ class Catador extends Model
         'telefoneCatador', 
         'disponibilidade_id'
     ];
+    public function agendamento(){
+        return $this->hasMany('App/Models/Agendamento', 'catador_id');
+    }
+    public function material(){
+        return $this->hasMany('App/Models/Catador_Material', 'material_id');
+    }
+    public function disponibilidade(){
+        return $this->hasMany('App/Models/Disponibilidade', 'catador_id');
+    }
  
 }
