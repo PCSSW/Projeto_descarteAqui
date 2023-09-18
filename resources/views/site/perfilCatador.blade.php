@@ -13,7 +13,9 @@
             ⭐⭐⭐⭐⭐
         </div>
         <div class="col mt-1">
-            <button type="button" class="btn btn-primary">Agendar</button>
+            <a href="/agendamento">
+                <button type="button" class="btn btn-primary">Agendar</button>
+            </a>
         </div>
     </div>
     <div class="row mt-5">

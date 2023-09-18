@@ -62,7 +62,9 @@
                 <div style="display: flex; justify-content: center">
                     <a class="color-primary mt-2" href="#" style="text-decoration: none">Cadastrar novo endereço</a>
                 </div>
-                <button type="submit" class="btn mt-2" style="background-color: #78D242; color:white; font-weight: bold;">Concluir Agendamento</button>
+                <button type="submit" class="btn mt-2" style="background-color: #78D242; color:white; font-weight: bold;">
+                    <a href="/" style="color: white; text-decoration: none">Concluir Agendamento</a>
+                </button>
             </div>
         </div>
       </form>

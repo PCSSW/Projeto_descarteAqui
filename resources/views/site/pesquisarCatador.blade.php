@@ -4,6 +4,7 @@
 <div class="container mt-5 pt-5">
     <div class="row">
         <div class="col">
+            <a href="/#" style="color: black; text-decoration: none">
             <div class="alert" style="background-color: #B9E66F;height: 13rem;">
                 <div class="row">
                     <div class="col">
@@ -19,8 +20,10 @@
                     </div>
                 </div>
             </div>
+        </a>
         </div>
         <div class="col">
+            <a href="/perfilCatador" style="color: black; text-decoration: none">
             <div class="alert" style="background-color: #B9E66F;height: 13rem;">
                 <div class="row">
                     <div class="col">
@@ -37,10 +40,12 @@
                     </div>
                 </div>
             </div>
+            </a>
         </div>
     </div>
     <div class="row">
         <div class="col">
+            <a href="/#" style="color: black; text-decoration: none">
             <div class="alert" style="background-color: #B9E66F;height: 13rem;">
                 <div class="row">
                     <div class="col">
@@ -57,8 +62,10 @@
                     </div>
                 </div>
             </div>
+            </a>
         </div>
         <div class="col">
+            <a href="/#" style="color: black; text-decoration: none">
             <div class="alert" style="background-color: #B9E66F;height: 13rem;">
                 <div class="row">
                     <div class="col">
@@ -75,6 +82,7 @@
                     </div>
                 </div>
             </div>
+            </a>
         </div>
     </div>
 </div>

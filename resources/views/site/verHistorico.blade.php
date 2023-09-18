@@ -2,7 +2,7 @@
 @section('title', 'Descarte aqui')
 @section('body')
 <div class="container mt-5 pt-5">
-    <h4 style="color: #7BBB11">Descartes 01/04/2023</h4>
+    <h4 style="color: #7BBB11">Descartes</h4>
     <hr style="border: 2px solid #7BBB11">
     <div style="display: flex; justify-content: center;">
         <table class="table" style="width: 50%">

@@ -14,5 +14,8 @@ class Empresa extends Model
         'telefoneEmpresa', 
         'enderecoEmpresa', 
     ];
+    public function material(){
+        return $this->hasMany('App/Models/Material', 'empresa_id');
+    }
 
 }

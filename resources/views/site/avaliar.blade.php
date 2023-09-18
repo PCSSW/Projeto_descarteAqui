@@ -20,8 +20,12 @@
                         <textarea class="form-control" style="background-color: #CEED9A; border: none" id="textareaMensagem" cols="30" rows="4"></textarea>
                     </div>
                     <div class="row mt-4" style="display: flex; justify-content: flex-end">
-                        <button type="button" class="btn btn-danger me-2" style="width: 25%; font-weight: bold;" type="submit">Cancelar</button>
-                        <button type="button" class="btn btn-success me-2" style="width: 25%; font-weight: bold;" type="submit">Enviar</button>
+                        <a href="/">
+                            <button type="button" class="btn btn-danger me-2" style="width: 25%; font-weight: bold;" type="submit">Cancelar</button>
+                        </a>
+                        <a href="/">
+                            <button type="button" class="btn btn-success me-2" style="width: 25%; font-weight: bold;" type="submit">Enviar</button>
+                        </a>
                     </div>
                 </form>
             </div>
