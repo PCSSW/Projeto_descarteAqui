@@ -3,6 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Agendamento;
+use App\Models\Civil;
+use App\Models\Catador;
+use App\Models\material;
+use Illuminate\Support\Facades\DB;
 
 class controladorAgendamento extends Controller
 {
