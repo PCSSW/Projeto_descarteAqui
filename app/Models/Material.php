@@ -14,15 +14,7 @@ class Material extends Model
         'catador_id', 
         'empresa_id' 
     ];
-    public function agendamento(){
-<<<<<<< HEAD
-        return $this->hasMany('App/Models/Material_Agendamento', 'agendamento_id');
-    }
-    public function catador(){
-        return $this->hasMany('App/Models/Catador_Material', 'catador_id');
-    }
-=======
-        return $this->hasMany('App/Models/Agendamento', 'material_id');
+    public function agendamento(){return $this->hasMany('App/Models/Agendamento', 'material_id');
     }
     public function civil(){
         return $this->belongsTo('App/Models/Civil');
@@ -33,6 +25,4 @@ class Material extends Model
     public function empresa(){
         return $this->belongsTo('App/Models/Empresa');
     }
-    
->>>>>>> 0c4e1e84f962a63321d416ee05b2034698d64556
 }
