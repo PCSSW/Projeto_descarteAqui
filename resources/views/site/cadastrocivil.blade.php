@@ -2,7 +2,7 @@
 @section('title', 'Descarte aqui')
 @section('body')
 <div class="container mt-5 pt-5">
-    <h1 style="display: flex; justify-content: center; font-weight: bolder">CADASTRO CÍVIL</h1>
+    <h1 style="display: flex; justify-content: center; font-weight: bolder">CADASTRO CIVIL</h1>
     <div class="row mt-4">
         <button class="btn btn-lg btn-block mb-4 me-2" style="width: 25%; background-color: #7BC92D; font-weight: bold;" type="submit">Cívil</button>   
         <button class="btn btn-lg btn-block mb-4 ms-2" style="width: 25%; background-color: #A2DF7D; font-weight: bold;" type="submit">

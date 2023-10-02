@@ -11,7 +11,7 @@
     </div>
     <div>
         <a class="navbar-brand" href="/login">Login</a>
-        <a class="navbar-brand" href="/cadastroCivil">Cadastrar</a>
+        <a class="navbar-brand" href="{{route('register')}}">Cadastrar</a>
     </div>
     <div class="offcanvas offcanvas-start text-bg" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="background-color: #B9E66F">
         <br>

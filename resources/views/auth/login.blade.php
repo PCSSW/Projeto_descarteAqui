@@ -37,9 +37,11 @@
                         </div>
                         </div>
                         <div class="row mb-3">
+                            <a href="/cadastroCivil">
                                 <button type="submit" class="btn btn-lg btn-block mt-4" style="width: 100%; background-color: #7BC92D; font-weight: bold; color: white">
                                     {{ __('Entrar') }}
                                 </button>
+                            </a>
                                 <div class="h5 text-center">
                                 <a class="color-primary mt-4" style="text-decoration: none" href="{{route('register')}}">Não tem cadastro? Crie sua conta</a>
                             </div>

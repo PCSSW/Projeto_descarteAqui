@@ -5,7 +5,7 @@
     <h1 style="display: flex; justify-content: center; font-weight: bolder">CADASTRO CATADOR</h1>
     <div class="row mt-4">
         <button class="btn btn-lg btn-block mb-4 me-2" style="width: 25%; background-color: #A2DF7D; font-weight: bold;" type="submit">
-            <a href="/cadastroCivil" style="color: black; text-decoration: none">Cívil</a>
+            <a href="/cadastroCivil" style="color: black; text-decoration: none">Civil</a>
         </button>
         <button class="btn btn-lg btn-block mb-4 ms-2" style="width: 25%; background-color: #7BC92D; font-weight: bold;" type="submit">Catador</button>
     </div>
