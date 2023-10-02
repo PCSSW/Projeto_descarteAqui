@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/login', function () {return view('site.login');});
+Route::get('/login', function () {return view('auth.login');});
 Route::get('/historico', function () {return view('site.historico');});
 Route::get('/pesquisarCatador', function () {return view('site.pesquisarCatador');});
 Route::get('/perfilCatador', function () {return view('site.perfilCatador');});
