@@ -11,5 +11,8 @@
     @component('site.navbar')
     @endcomponent
     @yield('body')
+    @hasSection('javascript')
+        @yield('javascript')
+    @endif
 </body>
 </html>

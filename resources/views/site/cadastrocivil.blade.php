@@ -22,13 +22,13 @@
                         </div>
                         <div class="col">
                             <label for="inputCPF" class="sr-only mt-3" style="font-size: 1rem">CPF</label>
-                            <input type="text" id="inputCPF" class="form-control"  required>
+                            <input type="text" id="cpfmask" class="form-control"  required>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col">
                             <label for="inputTelefone" class="sr-only mt-3" style="font-size: 1rem">Telefone</label>
-                            <input type="number" id="inputTelefone" class="form-control"  required>
+                            <input type="text" id="telmask" class="form-control"  required>
                         </div>
                         <div class="col">
                             <label for="inputEmail" class="sr-only mt-3" style="font-size: 1rem">E-mail</label>
@@ -90,4 +90,18 @@
         </div>
     </div>
 </div>
+@endsection
+@section('javascript')
+    <script type="module">
+        $().ready(function () {
+            let telmask = new Inputmask ('(99) 99999-9999')
+            telmask.mask("#telmask");
+        });
+    </script>
+    <script type="module">
+        $().ready(function () {
+            let cpfmask = new Inputmask ('999.999.999-99')
+            cpfmask.mask("#cpfmask");
+        });
+    </script>
 @endsection

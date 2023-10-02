@@ -27,7 +27,7 @@
                       <div class="row">
                         <div class="col">
                             <label for="inputTelefone" class="sr-only mt-3" style="font-size: 1rem">Telefone</label>
-                            <input type="number" id="inputTelefone" class="form-control"  required>
+                            <input type="text" id="inputTelefone" class="form-control"  required>
                         </div>
                         <div class="col">
                             <label for="inputEmail" class="sr-only mt-3" style="font-size: 1rem">E-mail</label>
