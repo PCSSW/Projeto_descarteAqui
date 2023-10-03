@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('catador__materials', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->timestamps();
             $table->unsignedBigInteger('catador_id');
             $table->foreign('catador_id')->references('id')->on('catadors');

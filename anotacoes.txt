@@ -1,0 +1,71 @@
+Observações:
+
+Cadastro Civil
+==============
+Remover:
+- Nome completo
+- E-mail
+- Senha
+- Confirmar senha
+
+Adicionar:
+- cpf
+- telefone
+- cidade
+- uf
+- rua
+- numero
+- bairro
+
+Cadastro Catador
+================
+Remover:
+- Nome completo
+- E-mail
+- Senha
+- Confirmar senha
+
+Register:
+=========
+
+- Utilizar a lógica de "tipo de usuário" (Civil e Catador)
+
+Migration Civil:
+================
+- Telefone
+- CPF
+- Cidade
+- UF
+- Rua
+- Número
+- Bairro
+
+Migration Catador:
+==================
+- CPF
+- Telefone
+- "Local de atuação"
+
+Migration Materiais:
+===================
+- Nome do material
+
+
+Migration Agendamentos:
+=======================
+
+- Nome Material
+- Dia
+- Quantidade
+- Horário
+- Observação
+
+Models:
+=======
+
+- Alterar todos (De acordo com as modificações nas migrations)
+
+Controllers:
+============
+
+- Criar todos (Para que o site fique funcional e não apenas visual)
